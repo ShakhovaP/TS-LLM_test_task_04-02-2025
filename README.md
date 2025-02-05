@@ -49,7 +49,7 @@ docker-compose up --build
 ## API Usage
 Query Endpoint request example
 ```
-curl -X POST http://localhost:3000/agent -H "Content-Type: application/json" -d '{"query": "What do you know about LA fires?"}'
+curl -X POST http://localhost:3000/agent -H "Content-Type: application/json" -d '{"query": "Tell me the latest news about Trudeau"}'
 ```
 
 Response example
